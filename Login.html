@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <!--Links to other scripts--> 
+        <link rel ="Style"
+         href = "Style.css">
+        <script src = "LoginCode.JS"></script>
+        <title>
+            UATSpace Login
+        </title>
+    </head>
+<body>
+<img src = "UATspaceLogo-1.jpg">
+<!--Head of Login Page-->
+<h2 style =color:blueviolet>Welcome To UATSpace! 
+    please provide login...
+</h2>
+<!--Login status header-->
+<br>
+<div id ="LoginStatus">status</div>
+<br>
+<!--Submission for login form-->
+<form id ="LoginSubmit" onsubmit="return false">
+First name: <input type ="text" id="fname"><br>
+Last name: <input type ="text" id="lname"><br>
+Badge ID:<input type = "text" id="BadgeID"><br>
+<br>
+<!--submssion credential check-->
+<input type = "submit" onclick="Credcheck();" class="button" />
+</form>
+</body>
+</html>

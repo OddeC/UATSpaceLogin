@@ -1,0 +1,12 @@
+Body {
+     background-color:blue;
+     font-family: 'Sofia', sans-serif;
+}
+
+     .button{
+          background-color: dimgrey;
+          width: 100px;
+          height: 30px;
+          border-color:azure;
+          border-radius: 12px;
+}
